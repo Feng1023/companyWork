@@ -145,8 +145,8 @@ module.exports = {
       "/origin": {
         // target: process.env.VUE_APP_URL,
         // target: "https://trace-source.moacchina.info",
-        target: "http://trace-source-h5.moacchina.info",
-        // target: 'http://59.111.105.102:3666/',
+        target: "http://trace-source-h5.moacchina.info",//测试站点
+        // target: "http://trace_h5.moacchina.info",//正式站点
         // target: "https://trace.moacchina.info",
         // target: "http://192.168.199.13:3666/",
         changeOrigin: true,

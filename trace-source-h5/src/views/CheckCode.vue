@@ -450,8 +450,7 @@ export default {
     .contentImg {
       text-align: center;
       img {
-        width: 200px;
-        height: 200px;
+        width: 70%;
       }
     }
     .contentExplain {

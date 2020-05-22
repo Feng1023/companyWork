@@ -17,6 +17,7 @@ export default {
     if (this.$route.query.code) {
       const code = this.$route.query.code;
       getCodeStatu({ code }).then(res => {
+        console.log('code= '+ code)
         console.log(res.data);
         if (res.data === "1") {
           setTimeout(

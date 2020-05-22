@@ -8,11 +8,17 @@
     </div>
 </template>
 
+<style lang="less">
+//     html,body{
+//     width: 100vw;
+//     height: 100vh;
+//     overflow:hidden;
+//     overflow-y:auto;
+// }       
+</style>
+
 <style lang='less' scoped>
-html,body{
-    overflow:hidden;
-    overflow-y:auto;
-}
+
 #app {
     min-height: 100%;
     background: #f6f6f6;

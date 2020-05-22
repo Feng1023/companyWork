@@ -1,6 +1,6 @@
 <template>
   <div class="none">
-    <MyHeader title="商品信息"></MyHeader>
+    <MyHeader title="消费失败"></MyHeader>
     <div class="gas"></div>
     <div class="cousumeDetail">
       <div class="content">
@@ -13,20 +13,20 @@
         <div>{{ code }}</div>
       </div>
       <div class="detail">
-        <div>消费存证</div>
+        <div>失败原因</div>
         <div style="color:#F76260">该商品条码不存在</div>
       </div>
       <div class="detail">
-        <div>消费日期</div>
+        <div>扫码日期</div>
         <div>{{ time | timestampToTime }}</div>
       </div>
     </div>
     <div class="gas"></div>
     <div class="goodDetail">
-      <div class="second-title">产品详情</div>
+      <div class="second-title">商品详情</div>
       <div class="detail">
-        <div>商品名称</div>
-        <div class="hash">无</div>
+        <!-- <div>商品名称</div> -->
+        <div class="hash" style="text-align: left">无</div>
       </div>
     </div>
   </div>
