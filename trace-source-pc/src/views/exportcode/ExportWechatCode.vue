@@ -17,9 +17,9 @@ export default {
     data() {
         return {
             printWeChatHtml: '',
-            // serverUrlStr:'http://192.168.199.233:8080/home?code=',//本地测试
-            // serverUrlStr: 'http://trace-source-h5.moacchina.info?code='//测试环境
-            serverUrlStr: 'http://trace_h5.moacchina.info?code='//正式环境
+            // serverUrlStr:'http://192.168.1.101:8080/home?code=',//本地测试
+            serverUrlStr: 'http://trace-source-h5.moacchina.info?code='//测试环境
+            // serverUrlStr: 'http://trace_h5.moacchina.info?code='//正式环境
         };
     },
 

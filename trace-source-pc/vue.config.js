@@ -37,10 +37,10 @@ module.exports = {
         },
         proxy: {
             '/dev-api/api': {
-                // target: `http://test_trace.moacchina.info`,
+                target: `http://test_trace.moacchina.info`,
                 // target: `http://127.0.0.1:8003`,/
                 // target: `http://192.168.199.13:8003`,
-                target: 'http://meika_test.moacchina.info/',
+                // target: 'http://meika_test.moacchina.info', 
 
                 changeOrigin: true,
                 pathRewrite: {

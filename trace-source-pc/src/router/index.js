@@ -259,25 +259,25 @@ export const asyncRoutes = [
             }
         ]
     },
-    {
-        path: '/box',
-        component: Layout,
-        name: 'box',
-        alwaysShow: true,
-        meta: { title: '装箱管理', icon: 'trace', roles: ['2', '1', '0'] },
-        children: [
-            {
-                path: 'box',
-                name: 'box',
-                component: () => import('@/views/boxing/Box'),
-                meta: {
-                    title: '商品装箱管理',
-                    icon: 'see',
-                    roles: ['2', '1', '0']
-                }
-            }
-        ]
-    },
+    // {
+    //     path: '/box',
+    //     component: Layout,
+    //     name: 'box',
+    //     alwaysShow: true,
+    //     meta: { title: '装箱管理', icon: 'trace', roles: ['2', '1', '0'] },
+    //     children: [
+    //         {
+    //             path: 'box',
+    //             name: 'box',
+    //             component: () => import('@/views/boxing/Box'),
+    //             meta: {
+    //                 title: '商品装箱管理',
+    //                 icon: 'see',
+    //                 roles: ['2', '1', '0']
+    //             }
+    //         }
+    //     ]
+    // },
     // {
     //     path: '/companyregister',
     //     component: Layout,
